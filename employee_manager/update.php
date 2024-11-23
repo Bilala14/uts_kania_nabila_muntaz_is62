@@ -6,7 +6,7 @@ include("koneksi.php");
 $id_kry = $_POST['id_kry'];
 $nm_kry = $_POST['nm_kry'];
 $jbtn = $_POST['jabatan'];
-$tgl_masuk = $_POST['tgl_msk'];
+$tgl_masuk = $_POST['tgl_masuk'];
 $gaji = $_POST['gaji'];
 
 #3 Menuliskan query simpan

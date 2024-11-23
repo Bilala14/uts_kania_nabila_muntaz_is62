@@ -38,7 +38,7 @@ $data = mysqli_fetch_array($edit);
             <input type="hidden" name="id_kry" value="<?=$data['id_kry']?>">
         <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Nama Karyawan</label>
-        <input type="text" readonly value="<?=$data['nm_kry']?>" name="nm_kry" class="form-control" id="exampleInputPassword1">
+        <input type="text" value="<?=$data['nm_kry']?>" name="nm_kry" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Jabatan</label>

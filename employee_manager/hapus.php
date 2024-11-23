@@ -1,12 +1,12 @@
 <?php
 // Koneksi file ini
-include("../koneksi.php");
+include("koneksi.php");
 
 // Mengambil id dari tombol hapus
-$id = $_GET['xyz'];
+$id_kry = $_GET['xyz'];
 
 // Menuliskan query 
-$hapus = "DELETE FROM jurusans WHERE id='$id'";
+$hapus = "DELETE FROM tb_kry WHERE id_kry='$id_kry'";
 
 // Menjalankan query
 $proses = mysqli_query($koneksi,$hapus);
@@ -15,5 +15,5 @@ $proses = mysqli_query($koneksi,$hapus);
 <!-- Mengalihkan Halaman 
 header("location:index.php") -->
 <script>
-    document.location="index.php";
+    document.location="indexcopy.php";
 </script>

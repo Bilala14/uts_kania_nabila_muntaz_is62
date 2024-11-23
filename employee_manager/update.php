@@ -1,15 +1,16 @@
 <?php
 #1. Membuat Koneksi  database dengan php
-include("../koneksi.php");
+include("koneksi.php");
 
 #2. Mengambil semua value dari form dan dimasukkan ke masing-masing variable
-$id = $_POST['id'];
-$kd = $_POST['kode'];
-$jrs = $_POST['jurusan'];
-
+$id_kry = $_POST['id_kry'];
+$nm_kry = $_POST['nm_kry'];
+$jbtn = $_POST['jabatan'];
+$tgl_masuk = $_POST['tgl_msk'];
+$gaji = $_POST['gaji'];
 
 #3 Menuliskan query simpan
-$sunting = "UPDATE jurusans SET kode='$kd',jurusan='$jrs' WHERE id='$id'";
+$sunting = "UPDATE tb_kry SET id_kry='$id_kry',nm_kry='$nm_kry',jabatan='$jbtn',tgl_masuk='$tgl_masuk',gaji='$gaji' WHERE id_kry='$id_kry'";
 
 #4. Menjalankan query
 $proses = mysqli_query($koneksi,$sunting);
@@ -19,5 +20,5 @@ $proses = mysqli_query($koneksi,$sunting);
 //header("location:index.php")//
 ?>
 <script>
-    document.location="index.php";
+    document.location="indexcopy.php";
 </script>

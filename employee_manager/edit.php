@@ -50,7 +50,7 @@ $data = mysqli_fetch_array($edit);
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Gaji</label>
-        <input type="text" value="<?=$data['gaji']?>" name="gaji" class="form-control" id="exampleInputPassword1">
+        <input type="text"  value="<?=$data['gaji']?>" name="gaji" class="form-control" id="exampleInputPassword1">
     </div>
     <button type="submit" class="btn btn-primary">Update</button>
     </form>

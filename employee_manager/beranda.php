@@ -17,7 +17,7 @@
        <h3>Employee Manager</h3>
     </div>
     <div class="card-body">
-      <h4>Selamat Datang</h4>
+      <h4>Selamat Datang Di Employee Manager</h4>
       <p></p>
     </div>
     </div>

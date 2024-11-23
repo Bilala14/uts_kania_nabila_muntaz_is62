@@ -13,7 +13,7 @@
           <a class="nav-link active" aria-current="page" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/employee_manager/indexcopy.php">Data Karyawan</a>
+          <a class="nav-link active" aria-current="page" href="/employee_manager/indexcopy.php"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#"></a>
